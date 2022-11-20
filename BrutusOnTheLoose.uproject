@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "BrutusOnTheLoose",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"TargetPlatforms": [
+		"AllDesktop",
+		"HoloLens",
+		"IOS",
+		"LinuxNoEditor",
+		"LinuxAArch64NoEditor",
+		"MacNoEditor",
+		"WindowsNoEditor"
+	]
+}

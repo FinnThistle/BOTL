@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "BrutusOnTheLoose Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Test",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Test",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win32",
+				"Test",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Test",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Test",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"Win64",
+				"Test",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Test",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Test",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLoose IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLoose IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLoose",
+				"IOS",
+				"Test",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLooseEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLooseEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLooseEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLooseEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLooseEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLooseEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLooseEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLooseEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLooseEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLooseEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLooseEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLooseEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLooseEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLooseEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLooseEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLooseEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLooseEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BrutusOnTheLooseEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BrutusOnTheLooseEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BrutusOnTheLooseEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BrutusOnTheLooseEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\BrutusOnTheLoose.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		}
+	]
+}

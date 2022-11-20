@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "BrutusOnTheLooseEditor Editor Win64 Development (BrutusOnTheLoose)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

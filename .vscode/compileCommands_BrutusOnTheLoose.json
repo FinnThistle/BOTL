@@ -1,0 +1,57 @@
+[
+    {
+        "file": "C:\\\\Users\\\\finmi\\\\OneDrive\\\\Desktop\\\\UdemyCourseContent\\\\BrutusOnTheLoose\\\\Source\\\\BrutusOnTheLoose\\\\BaseCharacter.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose\\BrutusOnTheLoose.210.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "C:\\\\Users\\\\finmi\\\\OneDrive\\\\Desktop\\\\UdemyCourseContent\\\\BrutusOnTheLoose\\\\Source\\\\BrutusOnTheLoose\\\\BaseCharacter.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose\\BrutusOnTheLoose.210.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "C:\\\\Users\\\\finmi\\\\OneDrive\\\\Desktop\\\\UdemyCourseContent\\\\BrutusOnTheLoose\\\\Source\\\\BrutusOnTheLoose\\\\BrutusOnTheLoose.Build.cs",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose\\BrutusOnTheLoose.210.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "C:\\\\Users\\\\finmi\\\\OneDrive\\\\Desktop\\\\UdemyCourseContent\\\\BrutusOnTheLoose\\\\Source\\\\BrutusOnTheLoose\\\\BrutusOnTheLoose.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose\\BrutusOnTheLoose.210.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "C:\\\\Users\\\\finmi\\\\OneDrive\\\\Desktop\\\\UdemyCourseContent\\\\BrutusOnTheLoose\\\\Source\\\\BrutusOnTheLoose\\\\BrutusOnTheLoose.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose\\BrutusOnTheLoose.210.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "c:\\\\Users\\\\finmi\\\\OneDrive\\\\Desktop\\\\UdemyCourseContent\\\\BrutusOnTheLoose\\\\Source\\\\BrutusOnTheLoose\\\\CPP_EMovementState.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose\\BrutusOnTheLoose.210.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "c:\\\\Users\\\\finmi\\\\OneDrive\\\\Desktop\\\\UdemyCourseContent\\\\BrutusOnTheLoose\\\\Source\\\\BrutusOnTheLoose\\\\CPP_EMovementState.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose\\BrutusOnTheLoose.210.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "c:\\\\Users\\\\finmi\\\\OneDrive\\\\Desktop\\\\UdemyCourseContent\\\\BrutusOnTheLoose\\\\Source\\\\BrutusOnTheLoose\\\\StartEndLine.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose\\BrutusOnTheLoose.210.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "c:\\\\Users\\\\finmi\\\\OneDrive\\\\Desktop\\\\UdemyCourseContent\\\\BrutusOnTheLoose\\\\Source\\\\BrutusOnTheLoose\\\\StartEndLine.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose\\BrutusOnTheLoose.210.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "c:\\\\Users\\\\finmi\\\\OneDrive\\\\Desktop\\\\UdemyCourseContent\\\\BrutusOnTheLoose\\\\Source\\\\BrutusOnTheLoose\\\\BaseCharacterPlayerController.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose\\BrutusOnTheLoose.210.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "c:\\\\Users\\\\finmi\\\\OneDrive\\\\Desktop\\\\UdemyCourseContent\\\\BrutusOnTheLoose\\\\Source\\\\BrutusOnTheLoose\\\\BaseCharacterPlayerController.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\finmi\\OneDrive\\Desktop\\UdemyCourseContent\\BrutusOnTheLoose\\.vscode\\compileCommands_BrutusOnTheLoose\\BrutusOnTheLoose.210.rsp\"",
+        "directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+    }
+]
